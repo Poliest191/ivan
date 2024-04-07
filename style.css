@@ -43,6 +43,23 @@ section{
     height: 400px;
 }
 
+.pricer{
+ float: left;
+ margin-left: 40px;
+ font-size: 25px;
+}
+
+.pricel{
+ float: right;
+ margin-right: 40px;
+ font-size: 25px;
+}
+
+span{
+    background-color: blue;
+    color: white;
+}
+
 .name1 h2{
     font-size: 45px;
     background-color: turquoise;
