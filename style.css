@@ -75,7 +75,12 @@ li:hover{
 
 .monako img{
     float: right;
-    margin: 10px;    
+    margin: 10px;  
+    opacity: 0.5;  
+}
+
+.monako img:hover{
+    opacity: 1;
 }
 
 .monako p{
@@ -105,4 +110,27 @@ li:hover{
 
 .gimalai p{
     border-bottom:1px solid rgb(40, 196, 193);
+}
+
+.gimalai img{
+    opacity: 0.5;
+}
+
+.gimalai img:hover{
+    opacity: 1;
+}
+
+footer{
+    background-color: rgb(40, 196, 193);
+    height: 90px;    
+}
+
+h4:hover{
+    border-bottom: 2px solid black;
+    font-size: 20px;
+}
+
+footer p{
+    padding-top: 10px;
+    font-size: 15px;
 }
